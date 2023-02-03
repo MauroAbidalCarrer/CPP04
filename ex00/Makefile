@@ -1,7 +1,7 @@
 
 NAME	:= animals
 
-SRCS	:= main.cpp Cat.cpp Dog.cpp Animal.cpp
+SRCS	:= main.cpp Cat.cpp Dog.cpp Animal.cpp WrongAnimal.cpp WrongCat.cpp
 OBJS	:= $(SRCS:.cpp=.o)
 
 DEPS	=	$(OBJS:.o=.d)
